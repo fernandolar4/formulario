@@ -1,0 +1,119 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+header,
+footer {
+  display: flex;
+  background-color: black;
+  height: 9vh;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+
+header {
+  font-size: 1.5vh;
+  padding: 2vh;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 5px 29px 20px #000000;
+}
+
+header img {
+  max-height: 6vh;
+  margin-left: 2vh;
+}
+
+header h1 {
+  margin-right: 2vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 120vh;
+  background-color: black;
+  background-image: url(img/2f88a9427474343f7275e3b8f6fcc2e1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  display: flex;
+  padding: 2vh;
+  font-size: 3vh;
+  flex-direction: column;
+  width: 75%;
+
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1vh;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 22px 1px #ffffffbd;
+}
+
+input {
+  box-sizing: 4vh;
+  padding: 1.5vh;
+  width: 70%;
+  margin-top: 1vh;
+}
+
+.novidades {
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 2vh;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.nomeclatura {
+  margin-top: 1vh;
+  margin-left: 14%;
+  align-self: flex-start;
+}
+
+.enviar {
+  font-size: 2.5vh;
+  font-weight: 400;
+  width: 75%;
+}
+.enviar:hover {
+  transition: 0.5s;
+  color: rgb(229, 9, 20);
+}
+
+footer {
+  font-size: 2vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0px -5px 29px 20px #000000;
+}
+
+fieldset {
+  margin-left: 14%;
+  padding: 1vh;
+}
+
+fieldset input {
+  display: inline-block;
+  width: 15px;
+  vertical-align: top;
+  margin-right: 0.5vh;
+}
+fieldset label {
+  display: inline-block;
+  width: 200px;
+  word-break: break-all;
+}

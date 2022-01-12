@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Fernando Lara - CAMP ioasys</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <a href="https://www.netflix.com/browse" >
+           <img src="img/netflix.png" alt="Netflix">    
+       </a>
+
+       <h1> Formulário do Maratonista de Séries</h1>
+
+    </header>
+
+    <main id="parallax">
+        
+        <form >
+            <label for="nomeSobrenome" class="nomeclatura">Nome Completo</label>
+            <input type="text" id="nomeSobrenome" placeholder="Netflixon Maratonista Jr." required>
+
+            
+            <label for="idade" class="nomeclatura">Qual a sua idade?</label>
+            <input type="number" id="idade">
+
+            <label for="favorito" class="nomeclatura">Qual sua série favorita?</label>
+            <input type="text" id='favorito'>
+
+           <label class="nomeclatura">Quais desses super sucessos você já assistiu?</label>
+           
+            <fieldset >
+            
+           <label for='round'><input type="checkbox" id='round'>Round 6</label>
+        
+                    <label for='witcher'> <input type="checkbox" id='witcher'>The Witcher</label>
+                    <label for='cima'>  <input type="checkbox" id='cima'>Não Olhe Para Cima</label>
+                    <label for='kai'><input type="checkbox" id='kai'>Cobra Kai</label>
+                    <label for='inside'> <input type="checkbox" id='inside'>bo burnham INSIDE</label>
+                    
+            </fieldset>
+
+            <div class="novidades">
+                <label for="checkbox"  > Gostaria de receber nossas novidades por Email?</label>
+                <input type="checkbox" checked>
+            </div>
+                <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+
+    </main>
+
+    <footer>
+        <p>
+            Formulário Fake da Netflix - Fernando Lara - CAMP ioasys 
+        </p>
+        <p>© 2022</p>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
