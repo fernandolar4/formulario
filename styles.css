@@ -75,7 +75,8 @@ input {
   margin-top: 2vh;
 }
 
-.nomeclatura {
+.nomeclatura,
+fieldset {
   margin-top: 1vh;
   margin-left: 14%;
   align-self: flex-start;
@@ -101,11 +102,6 @@ footer {
   box-shadow: 0px -5px 29px 20px #000000;
 }
 
-fieldset {
-  margin-left: 14%;
-  padding: 1vh;
-}
-
 fieldset input {
   display: inline-block;
   width: 15px;
@@ -115,5 +111,4 @@ fieldset input {
 fieldset label {
   display: inline-block;
   width: 200px;
-  word-break: break-all;
 }
